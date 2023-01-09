@@ -1,1 +1,5 @@
-export { WriteAnArticle } from './UseCase/WriteAnArticle/WriteAnArticle';
+import { WriteAnArticle } from './UseCase/WriteAnArticle/WriteAnArticle';
+
+
+export { WriteAnArticle }
+

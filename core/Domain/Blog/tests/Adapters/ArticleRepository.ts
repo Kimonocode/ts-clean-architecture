@@ -3,6 +3,7 @@ import { ArticleRepositoryInterface } from "../../Repository/ArticleRepositoryIn
 import { generateUUID as uuid } from "@packages/functions";
 
 export class ArticleRepository implements ArticleRepositoryInterface {
+  
   private repository: Article[] = [];
 
   async add(article: Article): Promise<void> {
