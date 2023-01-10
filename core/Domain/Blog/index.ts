@@ -1,5 +1,3 @@
-import { WriteAnArticle } from './UseCase/WriteAnArticle/WriteAnArticle';
+import { WriteAPost } from "./UseCase/WriteAPost/WriteAPost";
 
-
-export { WriteAnArticle }
-
+export { WriteAPost };
